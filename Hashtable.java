@@ -1,5 +1,3 @@
-
-
 public class Hashtable{
 
 
@@ -7,28 +5,28 @@ HashNode[] table;
 int size;
 int num_buckets;
 
-public static void main(String[] args){
-
-
-	String key = "daydream";
-		String val = "daydream";
-
-		String  key1 = "daydream";
-		String val1 = "daydreaming";
-		
-
-		String key2 = "daydream";
-		String val2 = "nightmare";
-		Hashtable hashtable = new Hashtable();
-		
-
-		hashtable.put(key, val);
-		hashtable.put(key1, val1);
-		hashtable.put(key2, val2);
-
-		hashtable.printKeyAndValue(key);
-
-}
+//public static void main(String[] args){
+//
+//
+//	String key = "daydream";
+//		String val = "daydream";
+//
+//		String  key1 = "daydream";
+//		String val1 = "daydreaming";
+//		
+//
+//		String key2 = "daydream";
+//		String val2 = "nightmare";
+//		Hashtable hashtable = new Hashtable();
+//		
+//
+//		hashtable.put(key, val);
+//		hashtable.put(key1, val1);
+//		hashtable.put(key2, val2);
+//
+//		hashtable.printKeyAndValue(key);
+//
+//}
 
 
 public Hashtable(){
@@ -250,6 +248,7 @@ public class HashNode{
 }
 
 }
+
 
 
 
